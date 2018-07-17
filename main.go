@@ -5,9 +5,9 @@ import (
 )
 
 func main() {
-	// only use := to define new variables
+	// initialize and assign
 	card := "Aces of Spades"
-	// reassign value of variable using = not :=
+	// reassign
 	card = "Five of Diamonds"
 	fmt.Println(card)
 }
