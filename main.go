@@ -5,9 +5,11 @@ import (
 )
 
 func main() {
-	// initialize and assign
-	card := "Aces of Spades"
-	// reassign
-	card = "Five of Diamonds"
+	card := newCard()
+
 	fmt.Println(card)
+}
+
+func newCard() string {
+	return "Five of Diamonds"
 }
