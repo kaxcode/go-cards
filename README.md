@@ -15,3 +15,15 @@
 - Array: fixed length list of things
 - Slice: Array that can grow or shrink
 - Every element in a slice must be of the same type
+
+### Custom type declaration
+
+- `type _name of your custome type_ underlying type`
+- Underlying type are string, int, float, etc.
+
+## Receiver Functions
+
+- `func (d duck) quack() { // do something }`
+- The name of this function is quack()
+- To call func you would do `d.quack()`
+- Don't ever reference a receiver value as 'this' or 'self'
