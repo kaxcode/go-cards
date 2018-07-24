@@ -9,3 +9,9 @@
 
 - Every function that returns a value must indicate what type of value it is returning.(ex. string, bool, int, float64)
 - Files in the same package can freely call functions defined in other files. Without having to import.
+
+##### Slices and Arrays
+
+- Array: fixed length list of things
+- Slice: Array that can grow or shrink
+- Every element in a slice must be of the same type
